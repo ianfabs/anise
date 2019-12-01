@@ -1,11 +1,10 @@
 {
   "name": "anise",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "entry": "cli.js",
   "license": "MIT",
   "devDependencies": {
-    "@babel/plugin-transform-react-jsx": "^7.7.4",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   }
