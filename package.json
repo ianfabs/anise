@@ -1,11 +1,17 @@
 {
-  "name": "anise",
+  "name": "anisejs",
+  "description": "Vanilla DOM witha weird flavor",
   "version": "0.1.0",
   "main": "index.js",
-  "entry": "cli.js",
+  "author": "Ian Fabs <ian@fabs.dev>",
   "license": "MIT",
-  "devDependencies": {
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
-  }
+  "devDependencies": {},
+  "repository": {
+    "url": "https://github.com/ianfabs/anise.git",
+    "type": "git"
+  },
+  "files": [
+    "index.js",
+    "utils.js"
+  ]
 }
