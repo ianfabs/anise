@@ -1,7 +1,7 @@
 {
   "name": "anisejs",
   "description": "Vanilla DOM witha weird flavor",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "entry": "dist/index.js",
   "main": "dist/index.js",
   "author": "Ian Fabs <ian@fabs.dev>",
@@ -17,7 +17,9 @@
     "dist/index.js",
     "dist/index.js.map",
     "dist/utils.js",
-    "dist/utils.js.map"
+    "dist/utils.js.map",
+    "src/index.ts",
+    "src/utils.ts"
   ],
   "scripts": {
     "build": "tsc"
