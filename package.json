@@ -1,17 +1,22 @@
 {
   "name": "anisejs",
   "description": "Vanilla DOM witha weird flavor",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "main": "index.js",
   "author": "Ian Fabs <ian@fabs.dev>",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
   "repository": {
     "url": "https://github.com/ianfabs/anise.git",
     "type": "git"
   },
   "files": [
-    "index.js",
-    "utils.js"
-  ]
+    "dist/index.js",
+    "dist/index.js.map"
+  ],
+  "scripts": {
+    "build": "tsc"
+  }
 }
