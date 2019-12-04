@@ -1,8 +1,9 @@
 {
   "name": "anisejs",
   "description": "Vanilla DOM witha weird flavor",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "entry": "dist/index.js",
+  "main": "dist/index.js",
   "author": "Ian Fabs <ian@fabs.dev>",
   "license": "MIT",
   "devDependencies": {
