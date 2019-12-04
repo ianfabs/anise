@@ -1,7 +1,7 @@
 {
   "name": "anisejs",
   "description": "Vanilla DOM witha weird flavor",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "entry": "dist/index.js",
   "main": "dist/index.js",
   "author": "Ian Fabs <ian@fabs.dev>",
