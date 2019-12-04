@@ -27,7 +27,7 @@ const element = (tag: (HTMLElement | FC | String | string), attrs:any = null, ..
     else if (isKnownElement(<HTMLElement>tag)) _new_element = tag;
     // TODO: This might not work, might need to revisit
     else if (tag instanceof Function) {
-        const _temp = tag();
+        const _temp = tag(Object.fromEntries(Object.entries(attrs).filter(it => !Object.keys(HTMLElement).includes(it[0]))));
         if ( isKnownElement(_temp) ) _new_element = _temp;
         else throw new Error("Anise Error: The function component specified does not return a valid HTMLElement");
     // This else case supports direct text children
