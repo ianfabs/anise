@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "anisejs": "^0.1.9",
+    "babel-plugin-transform-anise-jsx": "^0.1.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+}
